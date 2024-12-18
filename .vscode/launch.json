@@ -35,6 +35,24 @@
       "name": "Release ResourceGenerator",
       "program": "${workspaceFolder:ResourceGenerator}/.build/release/ResourceGenerator",
       "preLaunchTask": "swift: Build Release ResourceGenerator"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:ResourceGenerator}",
+      "name": "Debug resource-generator",
+      "program": "${workspaceFolder:ResourceGenerator}/.build/debug/resource-generator",
+      "preLaunchTask": "swift: Build Debug resource-generator"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:ResourceGenerator}",
+      "name": "Release resource-generator",
+      "program": "${workspaceFolder:ResourceGenerator}/.build/release/resource-generator",
+      "preLaunchTask": "swift: Build Release resource-generator"
     }
   ]
 }
