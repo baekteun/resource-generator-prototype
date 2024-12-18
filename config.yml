@@ -1,0 +1,11 @@
+strings:
+  inputs: ../../../../Desktop/AssetSample/AssetSample/Localizable.xcstrings
+  outputs:
+    - templateName: Strings
+      output: Generated+Strings.swift
+xcassets:
+  inputs:
+    - ../../../../Desktop/AssetSample/AssetSample/Assets.xcassets
+  outputs:
+    - templateName: Assets
+      output: Generated+Assets.swift

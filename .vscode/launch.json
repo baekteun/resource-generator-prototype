@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:ResourceGenerator}",
+      "name": "Debug PXResource",
+      "program": "${workspaceFolder:ResourceGenerator}/.build/debug/PXResource",
+      "preLaunchTask": "swift: Build Debug PXResource"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:ResourceGenerator}",
+      "name": "Release PXResource",
+      "program": "${workspaceFolder:ResourceGenerator}/.build/release/PXResource",
+      "preLaunchTask": "swift: Build Release PXResource"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:ResourceGenerator}",
+      "name": "Debug ResourceGenerator",
+      "program": "${workspaceFolder:ResourceGenerator}/.build/debug/ResourceGenerator",
+      "preLaunchTask": "swift: Build Debug ResourceGenerator"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:ResourceGenerator}",
+      "name": "Release ResourceGenerator",
+      "program": "${workspaceFolder:ResourceGenerator}/.build/release/ResourceGenerator",
+      "preLaunchTask": "swift: Build Release ResourceGenerator"
+    }
+  ]
+}
